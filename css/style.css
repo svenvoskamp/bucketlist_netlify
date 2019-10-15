@@ -1,0 +1,287 @@
+/* GENERAL */
+a {
+    text-decoration: none;
+    color: #003049;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../assets/fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../assets/fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('../assets/fonts/ProximaNova-Black.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../assets/fonts/ProximaNova-RegularIt.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1,
+h2,
+.h1 {
+    font-family: 'Proxima Nova Bl', sans-serif;
+    font-weight: 900;
+    font-size: 8rem;
+    text-transform: uppercase;
+    color: #003049;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+.h1--right {
+    margin-left: 0rem;
+    margin-right: 2rem;
+    text-align: right;
+}
+
+.h1--start {
+    font-size: 5.8rem;
+}
+
+p {
+    font-family: 'Proxima Nova Rg', sans-serif;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    color: #003049;
+    line-height: 2.2rem;
+}
+
+.p--quote {
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+.p--quote--right {
+    text-align: right;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.right {
+    text-align: right;
+}
+
+.p--bold {
+    font-weight: bold;
+    margin-top: 0.8rem;
+    margin-right: 5rem;
+}
+
+.p--bold-2 {
+    font-weight: bold;
+}
+
+.p--bold--right {
+    margin-left: 5rem;
+    margin-right: 0rem;
+}
+
+.p--header {
+    margin-top: 4rem;
+}
+
+.p--pitbull {
+    margin-left: 32rem;
+}
+
+.p--david {
+    margin-left: 30.3rem;
+}
+
+.p--paula {
+    margin-left: 15.9rem;
+}
+
+.p--charles {
+    margin-right: 27.3rem;
+}
+
+.p--priest {
+    margin-right: 17rem;
+}
+
+.p--instruction {
+    font-size: 1.2rem;
+    margin-top: 26rem;
+    margin-left: 32rem;
+
+}
+
+.p--instruction-2 {
+
+    margin-left: 0rem;
+    margin-top: 30.1rem;
+
+}
+
+.span--underline {
+    text-decoration: underline;
+    text-decoration-color: #fcbf49;
+
+}
+
+/* CANVAS BG */
+
+.illusion {
+    background-color: #f77f00;
+    cursor: move;
+}
+
+.showreel {
+    background-color: #003049;
+
+}
+
+.balance {
+    background-color: #fcbf49;
+}
+
+.live {
+    background-color: #d62828;
+}
+
+.progress {
+    background-color: #fcbf49;
+}
+
+.precision {
+    background-color: #eae2b7;
+}
+
+
+/* WRAPPERS */ 
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper--column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrapper--quote {
+    margin-top: 1.5rem;
+}
+
+/* POSITION */
+
+.quote {
+    margin-top: 10rem;
+}
+
+
+
+/* COLOR CLASSES */
+
+
+.orange {
+    color: #f77f00;
+    margin-left: 0;
+}
+
+.red {
+    color: #d62828;
+    margin-left: 0;
+}
+
+.purple {
+    color: #003049;
+    margin-left: 0;
+}
+
+.yellow {
+    color: #fcbf49;
+    margin-left: 0;
+}
+
+.lime {
+    color: #eae2b7;
+    margin-left: 0;
+}
+
+/* LINES */
+.line {
+    width: 4rem;
+    height: 0.2rem;
+    margin-left: 2rem;
+    margin-top: 1.9rem;
+    background-color: #f77f00;
+}
+
+.line--red {
+    background-color: #d62828;
+}
+
+.line--yellow {
+    background-color: #fcbf49;
+}
+
+.line--lime {
+    background-color: #eae2b7;
+}
+
+.line--right {
+    margin-right: 2rem;
+    margin-left: 0rem;
+}
+
+/* ICONS */
+
+.drag {
+    position: absolute;
+    top: 159rem;
+    left: 53rem;
+}
+
+.click {
+    position: absolute;
+    top: 214rem;
+    left: 48rem;
+}
